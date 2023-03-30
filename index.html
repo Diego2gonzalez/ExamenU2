@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  
+</head>
+
+<body>
+
+    
+    
+    <div id="myDIV">
+        <img src="img/4.jpg" width="50px" height="50px" />
+        <p class="hello">Hello</p>
+<br>
+    <button class="button button2" onclick="myFunction()">Sign up</button><br>
+    And welcome to the jungle.
+    </div>
+    
+    
+    
+   
+
+
+    <form id="siup"  action="index.html">
+        <div class="container">
+            <h2 class="heading">Sign Up</h2>
+            <p>Join now!!</p>
+        </div>
+
+        <div class="container" style="background-color:aqua">
+            <input type="text" placeholder="Name" name="name" >
+            <input type="text" placeholder="Email address" name="mail" >
+            
+            <label>
+            <label>
+     
+        </div>
+
+        <div class="container3">
+            <input type="submit" onclick="alert('Fuiste Hackeado')" style="color:black;" value="Sign Up">
+        </div>
+    </form>
+
+
+    <script>
+        function myFunction() {
+          var y = document.getElementById("siup");
+          if (y.style.display === "none") {
+            y.style.display = "block";
+          } else {
+            y.style.display = "none";
+          }
+        }
+        </script>
+</body>
